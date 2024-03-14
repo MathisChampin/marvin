@@ -1,0 +1,10 @@
+jenkins:
+  systemMessage: "Hello! Welcome to my Jenkins instance :)"
+  securityRealm:
+    local:
+      users:
+        - id: "jigglypuff"
+          password: "root"
+
+  jobDsl:
+    - file: /var/jenkins_home/job_dsl.groovy
